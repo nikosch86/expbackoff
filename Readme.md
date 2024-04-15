@@ -2,7 +2,7 @@
 
 bash script that defines a expbackoff function.  
 the function can be used to keep retrying commands that intermittently or often fail.  
-it is especially useful for things where you might be locked out or throttled if trying to fast or if you expect success eventually.  
+it is especially useful for things where you might be locked out or throttled if trying too fast or if you expect success eventually.  
 
 
 it runs the command passed to it and takes care of backing off as configured, exiting right away.  
